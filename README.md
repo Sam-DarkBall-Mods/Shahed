@@ -2,26 +2,26 @@
 
 [![CI](https://github.com/Sam-DarkBall-Mods/Shahed/actions/workflows/ci.yml/badge.svg)](https://github.com/Sam-DarkBall-Mods/Shahed/actions/workflows/ci.yml)
 
-Shahed and Geran loitering-munition systems for Arma 3.
+The repository builds two PBOs. `lk_shahed` contains the Geran-2 and
+Shahed-136 aircraft, their launcher trucks and the launch scripts.
+`shahed228` contains the Shahed-238 variants and their trucks.
 
 ## Requirements
 
 - Arma 3 2.22 or newer
-- Additional runtime dependencies declared by `CfgPatches`
 
-## Development
+## Building
 
 ```bash
+python3 -B -m unittest discover -s tests -p "test_*.py" -v
 hemtt check
 hemtt build --no-bin
-python3 -B -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-Legacy `CfgPatches`, function names, virtual PBO prefixes, and release PBO
-filenames are compatibility contracts and must not change in a patch release.
+Both old PBO names and prefixes are kept. The release archive contains
+`lk_shahed.pbo` and `shahed228.pbo`.
 
 ## License
 
-SQF, Arma configuration, and tooling are GPL-2.0-or-later. Original Arma
-models, textures, materials, animations, and audio are APL-SA. See
-[LICENSES.md](LICENSES.md) and closer notices.
+Code and configs use GPL-2.0-or-later. Original aircraft, vehicle and audio
+assets use APL-SA. See [LICENSES.md](LICENSES.md).
