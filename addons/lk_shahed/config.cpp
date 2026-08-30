@@ -7,7 +7,7 @@ class CfgPatches
 		{
 			"A3_Drones_F"
 		};
-		requiredVersion=0.1;
+		requiredVersion = 2.22;
 		units[]=
 		{
 			"Lk_geran2",

@@ -18,7 +18,7 @@ class CfgPatches
 			"A3_Drones_F",
 			"lk_shahed" // !!!
 		};
-		requiredVersion=0.1;
+		requiredVersion = 2.22;
 		units[]=
 		{
 			"shahed_238_CSAT",
