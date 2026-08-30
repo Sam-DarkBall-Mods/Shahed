@@ -5,7 +5,10 @@ class CfgPatches
 		addonRootClass="A3_Drones_F";
 		requiredAddons[]=
 		{
-			"A3_Drones_F"
+			"A3_Drones_F",
+			"cba_common",
+			"cba_keybinding",
+			"cba_xeh"
 		};
 		requiredVersion = 2.22;
 		units[]=
