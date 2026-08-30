@@ -1,4 +1,9 @@
 name = "Shahed 1.0.0";
+picture = "\lk_shahed\data\logo_ca.paa";
+logo = "\lk_shahed\data\logo_ca.paa";
+logoOver = "\lk_shahed\data\logo_ca.paa";
+logoSmall = "\lk_shahed\data\logo_ca.paa";
+overviewPicture = "\lk_shahed\data\logo_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/Sam-DarkBall-Mods/Shahed";
 description = "Shahed - Version 1.0.0";
